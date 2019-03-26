@@ -1,0 +1,179 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CA_ROOT_CERTIFICATE	test/conftest.py	/^CA_ROOT_CERTIFICATE = os.path.join(os.path.dirname(__file__), 'certs\/ca-root.crt')$/;"	v
+FORCE_CONTAINER_IPV6	test/conftest.py	/^FORCE_CONTAINER_IPV6 = False  # ugly global state to consider containers' IPv6 address instead of IPv4$/;"	v
+Handler	test/requirements/web/webserver.py	/^class Handler(http.server.SimpleHTTPRequestHandler):$/;"	c
+I_AM_RUNNING_INSIDE_A_DOCKER_CONTAINER	test/conftest.py	/^I_AM_RUNNING_INSIDE_A_DOCKER_CONTAINER = os.path.isfile("\/.dockerenv")$/;"	v
+PORT	test/requirements/web/webserver.py	/^    PORT = int(sys.argv[1])$/;"	v	class:Handler
+__getattr__	test/conftest.py	/^    def __getattr__(self, name):$/;"	m	class:requests_for_docker	file:
+__init__	test/conftest.py	/^    def __init__(self):$/;"	m	class:requests_for_docker
+_delete	test/conftest.py	/^            def _delete(*args, **kwargs):$/;"	f	function:requests_for_docker.delete
+_get	test/conftest.py	/^            def _get(*args, **kwargs):$/;"	f	function:requests_for_docker.get
+_head	test/conftest.py	/^            def _head(*args, **kwargs):$/;"	f	function:requests_for_docker.head
+_options	test/conftest.py	/^            def _options(*args, **kwargs):$/;"	f	function:requests_for_docker.options
+_post	test/conftest.py	/^            def _post(*args, **kwargs):$/;"	f	function:requests_for_docker.post
+_put	test/conftest.py	/^            def _put(*args, **kwargs):$/;"	f	function:requests_for_docker.put
+assert_log_contains	test/test_ssl/test_dhparam.py	/^def assert_log_contains(expected_log_line):$/;"	f
+assert_log_contains	test/test_ssl/test_dhparam_generation.py	/^def assert_log_contains(expected_log_line):$/;"	f
+certs	test/stress_tests/test_deleted_cert/test_restart_while_missing_cert.py	/^def certs():$/;"	f
+connect_to_all_networks	test/conftest.py	/^def connect_to_all_networks():$/;"	f
+connect_to_network	test/conftest.py	/^def connect_to_network(network):$/;"	f
+container_ip	test/conftest.py	/^def container_ip(container):$/;"	f
+container_ipv6	test/conftest.py	/^def container_ipv6(container):$/;"	f
+delete	test/conftest.py	/^    def delete(self, *args, **kwargs):$/;"	m	class:requests_for_docker
+disconnect_from_network	test/conftest.py	/^def disconnect_from_network(network=None):$/;"	f
+do_GET	test/requirements/web/webserver.py	/^    def do_GET(self):$/;"	m	class:Handler
+docker_client	test/conftest.py	/^docker_client = docker.from_env()$/;"	v
+docker_client	test/test_ssl/test_dhparam.py	/^docker_client = docker.from_env()$/;"	v
+docker_client	test/test_ssl/test_dhparam_generation.py	/^docker_client = docker.from_env()$/;"	v
+docker_compose	test/conftest.py	/^def docker_compose(request):$/;"	f
+docker_compose_down	test/conftest.py	/^def docker_compose_down(compose_file='docker-compose.yml'):$/;"	f
+docker_compose_up	test/conftest.py	/^def docker_compose_up(compose_file='docker-compose.yml'):$/;"	f
+docker_container_dns_resolver	test/conftest.py	/^def docker_container_dns_resolver(domain_name):$/;"	f
+exitfail	test/certs/create_server_certificate.sh	/^function exitfail {$/;"	f
+find_docker_compose_file	test/conftest.py	/^def find_docker_compose_file(request):$/;"	f
+get	test/conftest.py	/^    def get(self, *args, **kwargs):$/;"	m	class:requests_for_docker
+get_conf	test/conftest.py	/^    def get_conf(self):$/;"	m	class:requests_for_docker
+get_nginx_conf_from_container	test/conftest.py	/^def get_nginx_conf_from_container(container):$/;"	f
+head	test/conftest.py	/^    def head(self, *args, **kwargs):$/;"	m	class:requests_for_docker
+httpd	test/requirements/web/webserver.py	/^    httpd = socketserver.TCPServer(('0.0.0.0', PORT), Handler)$/;"	v	class:Handler
+ipv6	test/conftest.py	/^def ipv6(force_ipv6=True):$/;"	f
+monkey_patch_urllib_dns_resolver	test/conftest.py	/^def monkey_patch_urllib_dns_resolver():$/;"	f
+new_getaddrinfo	test/conftest.py	/^    def new_getaddrinfo(*args):$/;"	f	function:monkey_patch_urllib_dns_resolver
+nginx_proxy_dns_resolver	test/conftest.py	/^def nginx_proxy_dns_resolver(domain_name):$/;"	f
+nginx_tmpl	test/test_dockergen/test_dockergen_v2.py	/^def nginx_tmpl():$/;"	f
+nginx_tmpl	test/test_dockergen/test_dockergen_v3.py	/^def nginx_tmpl():$/;"	f
+nginxproxy	test/conftest.py	/^def nginxproxy():$/;"	f
+openssl	test/certs/create_server_certificate.sh	/^function openssl {$/;"	f
+options	test/conftest.py	/^    def options(self, *args, **kwargs):$/;"	m	class:requests_for_docker
+post	test/conftest.py	/^    def post(self, *args, **kwargs):$/;"	m	class:requests_for_docker
+put	test/conftest.py	/^    def put(self, *args, **kwargs):$/;"	m	class:requests_for_docker
+pytest_runtest_logreport	test/conftest.py	/^def pytest_runtest_logreport(report):$/;"	f
+pytest_runtest_makereport	test/conftest.py	/^def pytest_runtest_makereport(item, call):$/;"	f
+pytest_runtest_setup	test/conftest.py	/^def pytest_runtest_setup(item):$/;"	f
+pytestmark	test/stress_tests/test_deleted_cert/test_restart_while_missing_cert.py	/^pytestmark = pytest.mark.xfail()  # TODO delete this marker once those issues are fixed$/;"	v
+pytestmark	test/stress_tests/test_unreachable_network/test_unreachable_net.py	/^pytestmark = pytest.mark.xfail()  # TODO delete this marker once #585 is merged$/;"	v
+pytestmark	test/test_dockergen/test_dockergen_v3.py	/^pytestmark = pytest.mark.skipif($/;"	v
+raw_version	test/test_dockergen/test_dockergen_v3.py	/^raw_version = docker.from_env().version()['Version']$/;"	v
+remove_all_containers	test/conftest.py	/^def remove_all_containers():$/;"	f
+requests_for_docker	test/conftest.py	/^class requests_for_docker(object):$/;"	c
+require_openssl	test/test_ssl/test_dhparam.py	/^def require_openssl(required_version):$/;"	f
+restore_urllib_dns_resolver	test/conftest.py	/^def restore_urllib_dns_resolver(getaddrinfo_func):$/;"	f
+script_dir	test/stress_tests/test_deleted_cert/test_restart_while_missing_cert.py	/^script_dir = os.path.dirname(__file__)$/;"	v
+test_Host_is_passed_on	test/test_headers/test_http.py	/^def test_Host_is_passed_on(docker_compose, nginxproxy):$/;"	f
+test_Host_is_passed_on	test/test_headers/test_https.py	/^def test_Host_is_passed_on(docker_compose, nginxproxy):$/;"	f
+test_X_Forwarded_For_is_generated	test/test_headers/test_http.py	/^def test_X_Forwarded_For_is_generated(docker_compose, nginxproxy):$/;"	f
+test_X_Forwarded_For_is_generated	test/test_headers/test_https.py	/^def test_X_Forwarded_For_is_generated(docker_compose, nginxproxy):$/;"	f
+test_X_Forwarded_For_is_passed_on	test/test_headers/test_http.py	/^def test_X_Forwarded_For_is_passed_on(docker_compose, nginxproxy):$/;"	f
+test_X_Forwarded_For_is_passed_on	test/test_headers/test_https.py	/^def test_X_Forwarded_For_is_passed_on(docker_compose, nginxproxy):$/;"	f
+test_X_Forwarded_Port_is_generated	test/test_headers/test_http.py	/^def test_X_Forwarded_Port_is_generated(docker_compose, nginxproxy):$/;"	f
+test_X_Forwarded_Port_is_generated	test/test_headers/test_https.py	/^def test_X_Forwarded_Port_is_generated(docker_compose, nginxproxy):$/;"	f
+test_X_Forwarded_Port_is_passed_on	test/test_headers/test_http.py	/^def test_X_Forwarded_Port_is_passed_on(docker_compose, nginxproxy):$/;"	f
+test_X_Forwarded_Port_is_passed_on	test/test_headers/test_https.py	/^def test_X_Forwarded_Port_is_passed_on(docker_compose, nginxproxy):$/;"	f
+test_X_Forwarded_Proto_is_generated	test/test_headers/test_http.py	/^def test_X_Forwarded_Proto_is_generated(docker_compose, nginxproxy):$/;"	f
+test_X_Forwarded_Proto_is_generated	test/test_headers/test_https.py	/^def test_X_Forwarded_Proto_is_generated(docker_compose, nginxproxy):$/;"	f
+test_X_Forwarded_Proto_is_passed_on	test/test_headers/test_http.py	/^def test_X_Forwarded_Proto_is_passed_on(docker_compose, nginxproxy):$/;"	f
+test_X_Forwarded_Proto_is_passed_on	test/test_headers/test_https.py	/^def test_X_Forwarded_Proto_is_passed_on(docker_compose, nginxproxy):$/;"	f
+test_X_Forwarded_Ssl_is_generated	test/test_headers/test_http.py	/^def test_X_Forwarded_Ssl_is_generated(docker_compose, nginxproxy):$/;"	f
+test_X_Forwarded_Ssl_is_generated	test/test_headers/test_https.py	/^def test_X_Forwarded_Ssl_is_generated(docker_compose, nginxproxy):$/;"	f
+test_X_Forwarded_Ssl_is_overwritten	test/test_headers/test_http.py	/^def test_X_Forwarded_Ssl_is_overwritten(docker_compose, nginxproxy):$/;"	f
+test_X_Forwarded_Ssl_is_overwritten	test/test_headers/test_https.py	/^def test_X_Forwarded_Ssl_is_overwritten(docker_compose, nginxproxy):$/;"	f
+test_X_Real_IP_is_generated	test/test_headers/test_http.py	/^def test_X_Real_IP_is_generated(docker_compose, nginxproxy):$/;"	f
+test_X_Real_IP_is_generated	test/test_headers/test_https.py	/^def test_X_Real_IP_is_generated(docker_compose, nginxproxy):$/;"	f
+test_answer_is_served_from_chosen_port	test/test_multiple-ports/test_VIRTUAL_PORT.py	/^def test_answer_is_served_from_chosen_port(docker_compose, nginxproxy):$/;"	f
+test_answer_is_served_from_exposed_port_even_if_not_80	test/test_multiple-ports/test_single-port-not-80.py	/^def test_answer_is_served_from_exposed_port_even_if_not_80(docker_compose, nginxproxy):$/;"	f
+test_answer_is_served_from_port_80_by_default	test/test_multiple-ports/test_default-80.py	/^def test_answer_is_served_from_port_80_by_default(docker_compose, nginxproxy):$/;"	f
+test_arbitrary_headers_are_passed_on	test/test_headers/test_http.py	/^def test_arbitrary_headers_are_passed_on(docker_compose, nginxproxy):$/;"	f
+test_arbitrary_headers_are_passed_on	test/test_headers/test_https.py	/^def test_arbitrary_headers_are_passed_on(docker_compose, nginxproxy):$/;"	f
+test_custom_block_is_present_in_nginx_generated_conf	test/test_custom/test_location-per-vhost.py	/^def test_custom_block_is_present_in_nginx_generated_conf(docker_compose, nginxproxy):$/;"	f
+test_custom_conf_applies_to_web1	test/test_custom/test_defaults.py	/^def test_custom_conf_applies_to_web1(docker_compose, nginxproxy):$/;"	f
+test_custom_conf_applies_to_web1	test/test_custom/test_location-per-vhost.py	/^def test_custom_conf_applies_to_web1(docker_compose, nginxproxy):$/;"	f
+test_custom_conf_applies_to_web1	test/test_custom/test_per-vhost.py	/^def test_custom_conf_applies_to_web1(docker_compose, nginxproxy):$/;"	f
+test_custom_conf_applies_to_web1	test/test_custom/test_proxy-wide.py	/^def test_custom_conf_applies_to_web1(docker_compose, nginxproxy):$/;"	f
+test_custom_conf_applies_to_web2	test/test_custom/test_defaults.py	/^def test_custom_conf_applies_to_web2(docker_compose, nginxproxy):$/;"	f
+test_custom_conf_applies_to_web2	test/test_custom/test_proxy-wide.py	/^def test_custom_conf_applies_to_web2(docker_compose, nginxproxy):$/;"	f
+test_custom_conf_does_not_apply_to_unknown_vhost	test/test_custom/test_defaults.py	/^def test_custom_conf_does_not_apply_to_unknown_vhost(docker_compose, nginxproxy):$/;"	f
+test_custom_conf_does_not_apply_to_unknown_vhost	test/test_custom/test_location-per-vhost.py	/^def test_custom_conf_does_not_apply_to_unknown_vhost(docker_compose, nginxproxy):$/;"	f
+test_custom_conf_does_not_apply_to_unknown_vhost	test/test_custom/test_per-vhost.py	/^def test_custom_conf_does_not_apply_to_unknown_vhost(docker_compose, nginxproxy):$/;"	f
+test_custom_conf_does_not_apply_to_unknown_vhost	test/test_custom/test_proxy-wide.py	/^def test_custom_conf_does_not_apply_to_unknown_vhost(docker_compose, nginxproxy):$/;"	f
+test_custom_conf_does_not_apply_to_web2	test/test_custom/test_location-per-vhost.py	/^def test_custom_conf_does_not_apply_to_web2(docker_compose, nginxproxy):$/;"	f
+test_custom_conf_does_not_apply_to_web2	test/test_custom/test_per-vhost.py	/^def test_custom_conf_does_not_apply_to_web2(docker_compose, nginxproxy):$/;"	f
+test_custom_default_conf_applies_to_web1	test/test_custom/test_defaults-location.py	/^def test_custom_default_conf_applies_to_web1(docker_compose, nginxproxy):$/;"	f
+test_custom_default_conf_applies_to_web2	test/test_custom/test_defaults-location.py	/^def test_custom_default_conf_applies_to_web2(docker_compose, nginxproxy):$/;"	f
+test_custom_default_conf_does_not_apply_to_unknown_vhost	test/test_custom/test_defaults-location.py	/^def test_custom_default_conf_does_not_apply_to_unknown_vhost(docker_compose, nginxproxy):$/;"	f
+test_custom_default_conf_is_overriden_for_web3	test/test_custom/test_defaults-location.py	/^def test_custom_default_conf_is_overriden_for_web3(docker_compose, nginxproxy):$/;"	f
+test_default_nginx_welcome_page_should_not_be_served	test/stress_tests/test_unreachable_network/test_unreachable_net.py	/^def test_default_nginx_welcome_page_should_not_be_served(docker_compose, nginxproxy):$/;"	f
+test_delete_cert_and_restart_reverseproxy	test/stress_tests/test_deleted_cert/test_restart_while_missing_cert.py	/^def test_delete_cert_and_restart_reverseproxy(docker_compose):$/;"	f
+test_dhparam_is_generated_if_missing	test/test_ssl/test_dhparam_generation.py	/^def test_dhparam_is_generated_if_missing(docker_compose):$/;"	f
+test_dhparam_is_not_generated_if_present	test/test_ssl/test_dhparam.py	/^def test_dhparam_is_not_generated_if_present(docker_compose):$/;"	f
+test_fallback_on_default	test/test_default-host.py	/^def test_fallback_on_default(docker_compose, nginxproxy):$/;"	f
+test_forwards_to_web1	test/test_DOCKER_HOST_unix_socket.py	/^def test_forwards_to_web1(docker_compose, nginxproxy):$/;"	f
+test_forwards_to_web1	test/test_multiple-networks.py	/^def test_forwards_to_web1(docker_compose, nginxproxy):$/;"	f
+test_forwards_to_web1	test/test_nominal.py	/^def test_forwards_to_web1(docker_compose, nginxproxy):$/;"	f
+test_forwards_to_web1_ipv4	test/test_ipv6.py	/^def test_forwards_to_web1_ipv4(docker_compose, nginxproxy):$/;"	f
+test_forwards_to_web1_ipv6	test/test_ipv6.py	/^def test_forwards_to_web1_ipv6(docker_compose, nginxproxy):$/;"	f
+test_forwards_to_web2	test/test_DOCKER_HOST_unix_socket.py	/^def test_forwards_to_web2(docker_compose, nginxproxy):$/;"	f
+test_forwards_to_web2	test/test_multiple-networks.py	/^def test_forwards_to_web2(docker_compose, nginxproxy):$/;"	f
+test_forwards_to_web2	test/test_nominal.py	/^def test_forwards_to_web2(docker_compose, nginxproxy):$/;"	f
+test_forwards_to_web2_ipv4	test/test_ipv6.py	/^def test_forwards_to_web2_ipv4(docker_compose, nginxproxy):$/;"	f
+test_forwards_to_web2_ipv6	test/test_ipv6.py	/^def test_forwards_to_web2_ipv6(docker_compose, nginxproxy):$/;"	f
+test_forwards_to_whoami	test/test_composev2.py	/^def test_forwards_to_whoami(docker_compose, nginxproxy):$/;"	f
+test_forwards_to_whoami	test/test_dockergen/test_dockergen_v2.py	/^def test_forwards_to_whoami(nginx_tmpl, docker_compose, nginxproxy):$/;"	f
+test_forwards_to_whoami	test/test_dockergen/test_dockergen_v3.py	/^def test_forwards_to_whoami(nginx_tmpl, docker_compose, nginxproxy):$/;"	f
+test_http_is_forwarded	test/test_ssl/test_nohttps.py	/^def test_http_is_forwarded(docker_compose, nginxproxy):$/;"	f
+test_http_redirects_to_https	test/test_ssl/wildcard_cert_and_nohttps/test_wildcard_cert_nohttps.py	/^def test_http_redirects_to_https(docker_compose, nginxproxy, subdomain, should_redirect_to_https):$/;"	f
+test_http_web_a_is_forwarded	test/stress_tests/test_unreachable_network/test_unreachable_net.py	/^def test_http_web_a_is_forwarded(docker_compose, nginxproxy):$/;"	f
+test_http_web_b_gets_an_error	test/stress_tests/test_unreachable_network/test_unreachable_net.py	/^def test_http_web_b_gets_an_error(docker_compose, nginxproxy):$/;"	f
+test_http_web_is_301	test/stress_tests/test_deleted_cert/test_restart_while_missing_cert.py	/^def test_http_web_is_301(docker_compose, nginxproxy):$/;"	f
+test_http_web_is_now_200	test/stress_tests/test_deleted_cert/test_restart_while_missing_cert.py	/^def test_http_web_is_now_200(nginxproxy):$/;"	f
+test_httpoxy_safe	test/test_headers/test_http.py	/^def test_httpoxy_safe(docker_compose, nginxproxy):$/;"	f
+test_httpoxy_safe	test/test_headers/test_https.py	/^def test_httpoxy_safe(docker_compose, nginxproxy):$/;"	f
+test_https_get_served	test/test_ssl/wildcard_cert_and_nohttps/test_wildcard_cert_nohttps.py	/^def test_https_get_served(docker_compose, nginxproxy, subdomain):$/;"	f
+test_https_is_disabled	test/test_ssl/test_nohttps.py	/^def test_https_is_disabled(docker_compose, nginxproxy):$/;"	f
+test_https_web_is_200	test/stress_tests/test_deleted_cert/test_restart_while_missing_cert.py	/^def test_https_web_is_200(docker_compose, nginxproxy):$/;"	f
+test_https_web_is_now_broken_since_there_is_no_cert	test/stress_tests/test_deleted_cert/test_restart_while_missing_cert.py	/^def test_https_web_is_now_broken_since_there_is_no_cert(nginxproxy):$/;"	f
+test_ipv6_is_disabled_by_default	test/test_nominal.py	/^def test_ipv6_is_disabled_by_default(docker_compose, nginxproxy):$/;"	f
+test_new_container_is_detected	test/test_events.py	/^def test_new_container_is_detected(web1, nginxproxy):$/;"	f
+test_nginx_proxy_behavior_when_alone	test/test_events.py	/^def test_nginx_proxy_behavior_when_alone(docker_compose, nginxproxy):$/;"	f
+test_non_matching_host_is_503	test/test_wildcard_host.py	/^def test_non_matching_host_is_503(docker_compose, nginxproxy, host):$/;"	f
+test_reverseproxy_survive_restart	test/stress_tests/test_unreachable_network/test_unreachable_net.py	/^def test_reverseproxy_survive_restart(docker_compose):$/;"	f
+test_unknown_virtual_host	test/test_DOCKER_HOST_unix_socket.py	/^def test_unknown_virtual_host(docker_compose, nginxproxy):$/;"	f
+test_unknown_virtual_host	test/test_composev2.py	/^def test_unknown_virtual_host(docker_compose, nginxproxy):$/;"	f
+test_unknown_virtual_host	test/test_multiple-networks.py	/^def test_unknown_virtual_host(docker_compose, nginxproxy):$/;"	f
+test_unknown_virtual_host	test/test_nominal.py	/^def test_unknown_virtual_host(docker_compose, nginxproxy):$/;"	f
+test_unknown_virtual_host_ipv4	test/test_ipv6.py	/^def test_unknown_virtual_host_ipv4(docker_compose, nginxproxy):$/;"	f
+test_unknown_virtual_host_ipv6	test/test_ipv6.py	/^def test_unknown_virtual_host_ipv6(docker_compose, nginxproxy):$/;"	f
+test_unknown_virtual_host_is_503	test/stress_tests/test_deleted_cert/test_restart_while_missing_cert.py	/^def test_unknown_virtual_host_is_503(docker_compose, nginxproxy):$/;"	f
+test_unknown_virtual_host_is_503	test/stress_tests/test_unreachable_network/test_unreachable_net.py	/^def test_unknown_virtual_host_is_503(docker_compose, nginxproxy):$/;"	f
+test_unknown_virtual_host_is_503	test/test_dockergen/test_dockergen_v2.py	/^def test_unknown_virtual_host_is_503(nginx_tmpl, docker_compose, nginxproxy):$/;"	f
+test_unknown_virtual_host_is_503	test/test_dockergen/test_dockergen_v3.py	/^def test_unknown_virtual_host_is_503(nginx_tmpl, docker_compose, nginxproxy):$/;"	f
+test_unknown_virtual_host_is_503	test/test_multiple-hosts.py	/^def test_unknown_virtual_host_is_503(docker_compose, nginxproxy):$/;"	f
+test_unknown_virtual_host_is_still_503	test/stress_tests/test_deleted_cert/test_restart_while_missing_cert.py	/^def test_unknown_virtual_host_is_still_503(nginxproxy):$/;"	f
+test_web1_HSTS_default	test/test_ssl/test_hsts.py	/^def test_web1_HSTS_default(docker_compose, nginxproxy):$/;"	f
+test_web1_HSTS_error	test/test_ssl/test_hsts.py	/^def test_web1_HSTS_error(docker_compose, nginxproxy):$/;"	f
+test_web1_HSTS_policy_is_active	test/test_ssl/test_wildcard.py	/^def test_web1_HSTS_policy_is_active(docker_compose, nginxproxy, subdomain):$/;"	f
+test_web1_http_redirects_to_https	test/test_ssl/test_wildcard.py	/^def test_web1_http_redirects_to_https(docker_compose, nginxproxy, subdomain):$/;"	f
+test_web1_https_is_forwarded	test/test_ssl/test_wildcard.py	/^def test_web1_https_is_forwarded(docker_compose, nginxproxy, subdomain):$/;"	f
+test_web2_HSTS_off	test/test_ssl/test_hsts.py	/^def test_web2_HSTS_off(docker_compose, nginxproxy):$/;"	f
+test_web2_HSTS_policy_is_active	test/test_ssl/test_nohttp.py	/^def test_web2_HSTS_policy_is_active(docker_compose, nginxproxy):$/;"	f
+test_web2_HSTS_policy_is_inactive	test/test_ssl/test_noredirect.py	/^def test_web2_HSTS_policy_is_inactive(docker_compose, nginxproxy):$/;"	f
+test_web2_http_is_not_forwarded	test/test_ssl/test_nohttp.py	/^def test_web2_http_is_not_forwarded(docker_compose, nginxproxy):$/;"	f
+test_web2_https_is_forwarded	test/test_ssl/test_nohttp.py	/^def test_web2_https_is_forwarded(docker_compose, nginxproxy):$/;"	f
+test_web3_HSTS_custom	test/test_ssl/test_hsts.py	/^def test_web3_HSTS_custom(docker_compose, nginxproxy):$/;"	f
+test_web3_http_is_forwarded	test/test_ssl/test_noredirect.py	/^def test_web3_http_is_forwarded(docker_compose, nginxproxy):$/;"	f
+test_web3_https_is_500_and_SSL_validation_fails	test/test_ssl/wildcard_cert_and_nohttps/test_wildcard_cert_nohttps.py	/^def test_web3_https_is_500_and_SSL_validation_fails(docker_compose, nginxproxy):$/;"	f
+test_web3_https_is_forwarded	test/test_ssl/test_noredirect.py	/^def test_web3_https_is_forwarded(docker_compose, nginxproxy):$/;"	f
+test_web4_HSTS_off_noredirect	test/test_ssl/test_hsts.py	/^def test_web4_HSTS_off_noredirect(docker_compose, nginxproxy):$/;"	f
+test_web5_dhparam_is_used	test/test_ssl/test_dhparam.py	/^def test_web5_dhparam_is_used(docker_compose):$/;"	f
+test_web5_https_works	test/test_ssl/test_dhparam.py	/^def test_web5_https_works(docker_compose, nginxproxy):$/;"	f
+test_webA_is_forwarded	test/test_multiple-hosts.py	/^def test_webA_is_forwarded(docker_compose, nginxproxy):$/;"	f
+test_webB_is_forwarded	test/test_multiple-hosts.py	/^def test_webB_is_forwarded(docker_compose, nginxproxy):$/;"	f
+test_wildcard_prefix	test/test_wildcard_host.py	/^def test_wildcard_prefix(docker_compose, nginxproxy, host, expected_port):$/;"	f
+versiontuple	test/test_dockergen/test_dockergen_v3.py	/^def versiontuple(v):$/;"	f
+versiontuple	test/test_ssl/test_dhparam.py	/^    def versiontuple(v):$/;"	f	function:require_openssl
+wait_for_nginxproxy_to_be_ready	test/conftest.py	/^def wait_for_nginxproxy_to_be_ready():$/;"	f
+web1	test/test_events.py	/^def web1(docker_compose):$/;"	f
